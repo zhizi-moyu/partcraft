@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 shaft_d = 20;
 shaft_l = 100;
@@ -101,5 +101,4 @@ module coupling_assembly() {
 
 // Render the full model
 coupling_assembly();
-```
 
