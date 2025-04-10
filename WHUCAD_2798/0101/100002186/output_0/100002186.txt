@@ -1,0 +1,90 @@
+
+
+            component_list = {
+    'input_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft with a central bore and a flange at one end. The flange has bolt holes for mounting.'
+    },
+    'output_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft similar to the input shaft, with a central bore and a flange at one end for bolt connection.'
+    },
+    'spacer_ring': {
+        'num': '2',
+        'description': 'A very flat ring with a large central hole and multiple bolt holes around the perimeter. It is sandwiched between flange plates.'
+    },
+    'flange_plate': {
+        'num': '4',
+        'description': 'Flat, thick circular plates with a central hole and multiple bolt holes arranged in a circular pattern. These connect the shafts via bolts and nuts.'
+    },
+    'bolt': {
+        'num': '8',
+        'description': 'Slender cylindrical fasteners with a hexagonal socket head, as shown in the second image set. The shaft is smooth and ends in a conical tip.'
+    },
+    'nut': {
+        'num': '8',
+        'description': 'Hexagonal cylindrical nuts that pair with the bolts to secure the flange plates together. They are not shown separately but are inferred from the bolt connections.'
+    }
+}
+            modify component list:
+            component_list = {
+    'input_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft with a central bore and a flange at one end. The flange has bolt holes for mounting.'
+    },
+    'output_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft similar to the input shaft, with a central bore and a flange at one end for bolt connection.'
+    },
+    'spacer_ring': {
+        'num': '2',
+        'description': 'A very flat ring with a large central hole and multiple bolt holes around the perimeter. It is sandwiched between flange plates.'
+    },
+    'flange_plate': {
+        'num': '4',
+        'description': 'Flat, thick circular plates with a central hole and multiple bolt holes arranged in a circular pattern. These connect the shafts via bolts and nuts.'
+    },
+    'bolt': {
+        'num': '8',
+        'description': 'Slender cylindrical fasteners with a hexagonal socket head, as shown in the second image set. The shaft is smooth and ends in a conical tip.'
+    },
+    'nut': {
+        'num': '8',
+        'description': 'Hexagonal cylindrical nuts that pair with the bolts to secure the flange plates together. They are not shown separately but are inferred from the bolt connections.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['input_shaft'],
+        'description': 'The input shaft is located at the topmost layer, with its flange facing downward to connect with the flange plate below.'
+    },
+    'layer_2': {
+        'involved_components': ['flange_plate_1', 'nut_1', 'nut_2'],
+        'description': 'The first flange plate is mounted to the input shaft flange using nuts. The nuts are evenly distributed around the flange.'
+    },
+    'layer_3': {
+        'involved_components': ['spacer_ring_1', 'bolt_1', 'bolt_2'],
+        'description': 'The first spacer ring is sandwiched between two flange plates. Bolts pass through the ring and are aligned with the bolt holes.'
+    },
+    'layer_4': {
+        'involved_components': ['flange_plate_2', 'nut_3', 'nut_4'],
+        'description': 'The second flange plate is connected to the first spacer ring using bolts and nuts, forming a secure joint.'
+    },
+    'layer_5': {
+        'involved_components': ['flange_plate_3', 'nut_5', 'nut_6'],
+        'description': 'The third flange plate continues the connection, aligned with the second spacer ring below.'
+    },
+    'layer_6': {
+        'involved_components': ['spacer_ring_2', 'bolt_3', 'bolt_4'],
+        'description': 'The second spacer ring is placed between the third and fourth flange plates, with bolts passing through it.'
+    },
+    'layer_7': {
+        'involved_components': ['flange_plate_4', 'nut_7', 'nut_8'],
+        'description': 'The fourth flange plate is secured to the second spacer ring using bolts and nuts.'
+    },
+    'layer_8': {
+        'involved_components': ['output_shaft'],
+        'description': 'The output shaft is located at the bottommost layer, with its flange connected to the last flange plate.'
+    }
+}
+        
