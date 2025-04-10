@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 shaft_diameter = 20;
 shaft_length = 40;
@@ -28,5 +28,5 @@ module input_shaft() {
 
 // Render the input shaft
 input_shaft();
-```
+
 
