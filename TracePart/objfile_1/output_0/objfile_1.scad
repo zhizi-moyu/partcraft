@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100; // Smoothness
 
 // Parameters
@@ -86,5 +86,5 @@ module jaw_lobes_profile(depth) {
 
 // Render the full assembly
 flexible_coupling();
-```
+
 
