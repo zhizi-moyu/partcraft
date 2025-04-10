@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 hub_d = 30;
 hub_l = 40;
@@ -90,5 +90,5 @@ translate([0, 0, hub_l + 2 * flange_t + spacer_t])
 
 translate([0, 0, hub_l + 4 * flange_t + 2 * spacer_t])
     shaft_hub(); // output hub
-```
+
 
