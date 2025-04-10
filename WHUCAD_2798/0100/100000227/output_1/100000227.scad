@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 fork_arm_length = 40;
 fork_arm_thickness = 5;
@@ -56,5 +56,4 @@ module pin_head() {
 // Assembly
 fork_head();
 pin_head();
-```
 
