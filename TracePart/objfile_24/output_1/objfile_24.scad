@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 shaft_d = 25;         // Increased shaft diameter
 shaft_l = 20;         // Shortened shaft length
@@ -106,5 +106,4 @@ module coupling() {
 
 // Render the full coupling
 coupling();
-```
  
