@@ -1,0 +1,74 @@
+
+
+            component_list = {
+    'slotted_flange_cylinder': {
+        'num': '2',
+        'description': 'A short cylindrical component with a wide flat flange on one end and two symmetrical vertical slots cut into the cylindrical body. The flange has a central hole.'
+    },
+    'slotted_inner_sleeve': {
+        'num': '2',
+        'description': 'A cylindrical sleeve with a flanged rim and two vertical cutouts. The inner bore is hollow, and the outer surface is ribbed or grooved for fitting.'
+    },
+    'flat_flange_cylinder': {
+        'num': '2',
+        'description': 'A simple short cylinder with a wide flat flange on one end and a central hole. No slots or grooves are present.'
+    },
+    'central_ring': {
+        'num': '1',
+        'description': 'A thick, flat ring with a central hole, used to connect the two halves of the assembly. It appears to be the central joining element.'
+    },
+    'slotted_base_cup': {
+        'num': '2',
+        'description': 'A cup-shaped component with a recessed center and two large vertical slots. The base has a central hole, and the outer rim is slightly raised.'
+    }
+}
+            modify component list:
+            component_list = {
+    'slotted_flange_cylinder': {
+        'num': '2',
+        'description': 'A short cylindrical component with a wide flat flange on one end and two symmetrical vertical slots cut into the cylindrical body. The flange has a central hole.'
+    },
+    'slotted_inner_sleeve': {
+        'num': '1',
+        'description': 'A cylindrical sleeve with a flanged rim and two vertical cutouts. The inner bore is hollow, and the outer surface is ribbed or grooved for fitting.'
+    },
+    'flat_flange_cylinder': {
+        'num': '1',
+        'description': 'A simple short cylinder with a wide flat flange on one end and a central hole. No slots or grooves are present.'
+    },
+    'central_ring': {
+        'num': '1',
+        'description': 'A thick, flat ring with a central hole, used to connect the two halves of the assembly. It appears to be the central joining element.'
+    },
+    'slotted_base_cup': {
+        'num': '1',
+        'description': 'A cup-shaped component with a recessed center and two large vertical slots. The base has a central hole, and the outer rim is slightly raised.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['slotted_flange_cylinder_1'],
+        'description': 'This slotted flange cylinder is positioned at the top of the assembly, with its flange facing outward.'
+    },
+    'layer_2': {
+        'involved_components': ['slotted_inner_sleeve'],
+        'description': 'The slotted inner sleeve is inserted into the slotted flange cylinder, aligning with its vertical slots.'
+    },
+    'layer_3': {
+        'involved_components': ['central_ring'],
+        'description': 'The central ring connects the upper and lower halves of the assembly, acting as a central joining element.'
+    },
+    'layer_4': {
+        'involved_components': ['flat_flange_cylinder'],
+        'description': 'The flat flange cylinder is positioned below the central ring, with its flange facing outward.'
+    },
+    'layer_5': {
+        'involved_components': ['slotted_base_cup'],
+        'description': 'The slotted base cup is at the bottom of the assembly, with its recessed center and vertical slots aligned with the components above.'
+    },
+    'layer_6': {
+        'involved_components': ['slotted_flange_cylinder_2'],
+        'description': 'This second slotted flange cylinder is mounted at the very bottom, mirroring the topmost slotted flange cylinder.'
+    }
+}
+        
