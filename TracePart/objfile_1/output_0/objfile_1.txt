@@ -1,0 +1,46 @@
+
+
+            component_list = {
+    'left_clamp_hub': {
+        'num': '1',
+        'description': 'A cylindrical component with a central bore hole for shaft mounting. It has a slot cut along its side for clamping and a recessed interlocking jaw profile on one end to engage with the central insert. The outer surface is smooth, and the clamping slot is visible from the side.'
+    },
+    'right_clamp_hub': {
+        'num': '1',
+        'description': 'A mirror-symmetric cylindrical component to the left clamp hub. It also features a central bore hole, a side clamping slot, and an interlocking jaw profile on one end. The jaw profile is designed to mesh with the central insert. The outer surface is smooth and cylindrical.'
+    },
+    'central_jaw_insert': {
+        'num': '1',
+        'description': 'A cylindrical insert with interlocking teeth or lobes on both ends that fit into the jaw profiles of the left and right clamp hubs. It acts as the flexible element between the two hubs, allowing torque transmission while accommodating slight misalignments.'
+    }
+}
+            modify component list:
+            component_list = {
+    'left_clamp_hub': {
+        'num': '1',
+        'description': 'A cylindrical component with a central bore hole for shaft mounting. It has a slot cut along its side for clamping and a recessed interlocking jaw profile on one end to engage with the central insert. The outer surface is smooth, and the clamping slot is visible from the side.'
+    },
+    'right_clamp_hub': {
+        'num': '1',
+        'description': 'A mirror-symmetric cylindrical component to the left clamp hub. It also features a central bore hole, a side clamping slot, and an interlocking jaw profile on one end. The jaw profile is designed to mesh with the central insert. The outer surface is smooth and cylindrical.'
+    },
+    'central_jaw_insert': {
+        'num': '1',
+        'description': 'A cylindrical insert with interlocking teeth or lobes on both ends that fit into the jaw profiles of the left and right clamp hubs. It acts as the flexible element between the two hubs, allowing torque transmission while accommodating slight misalignments.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['left_clamp_hub'],
+        'description': 'This component is positioned at the top of the assembly and connects to the central jaw insert via interlocking teeth.'
+    },
+    'layer_2': {
+        'involved_components': ['central_jaw_insert'],
+        'description': 'This component is centrally located and interlocks with both the left and right clamp hubs, allowing torque transmission and slight misalignment flexibility.'
+    },
+    'layer_3': {
+        'involved_components': ['right_clamp_hub'],
+        'description': 'This component is positioned at the bottom of the assembly and connects to the central jaw insert via interlocking teeth.'
+    }
+}
+        
