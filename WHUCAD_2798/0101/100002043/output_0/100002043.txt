@@ -1,0 +1,90 @@
+
+
+            component_list = {
+    'input_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft with a central bore and a flange base, used to transmit torque into the coupling.'
+    },
+    'output_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft similar to the input shaft, with a central bore and flange base, used to transmit torque out of the coupling.'
+    },
+    'spacer_ring': {
+        'num': '2',
+        'description': 'A flat, wide ring with a large central hole, used to separate the flange plates and allow for flexible movement. Appears thin in profile and fits concentrically between flanges.'
+    },
+    'flange_plate': {
+        'num': '4',
+        'description': 'A thick, flat circular plate with a central hole and multiple bolt holes around the perimeter. Used to connect the shafts via bolts and nuts.'
+    },
+    'bolt': {
+        'num': '8',
+        'description': 'A slender cylindrical fastener with a hexagonal head, used to secure the flange plates together through the bolt holes.'
+    },
+    'nut': {
+        'num': '8',
+        'description': 'A small hexagonal prism, threaded internally, used in conjunction with bolts to fasten the flange plates.'
+    }
+}
+            modify component list:
+            component_list = {
+    'input_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft with a central bore and a flange base, used to transmit torque into the coupling.'
+    },
+    'output_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft similar to the input shaft, with a central bore and flange base, used to transmit torque out of the coupling.'
+    },
+    'spacer_ring': {
+        'num': '2',
+        'description': 'A thick, wide ring with a large central hole, used to separate the flange plates and allow for flexible movement. Appears robust and fits concentrically between flanges.'
+    },
+    'flange_plate': {
+        'num': '4',
+        'description': 'A thick, flat circular plate with a central hole and multiple bolt holes around the perimeter. Used to connect the shafts via bolts and nuts.'
+    },
+    'bolt': {
+        'num': '8',
+        'description': 'A slender cylindrical fastener with a hexagonal head, used to secure the flange plates together through the bolt holes.'
+    },
+    'nut': {
+        'num': '8',
+        'description': 'A small hexagonal prism, threaded internally, used in conjunction with bolts to fasten the flange plates.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['input_shaft'],
+        'description': 'The input shaft is located at the topmost layer, serving as the entry point for torque transmission.'
+    },
+    'layer_2': {
+        'involved_components': ['flange_plate_1', 'nut_1', 'nut_2'],
+        'description': 'The first flange plate is attached to the base of the input shaft and secured with nuts.'
+    },
+    'layer_3': {
+        'involved_components': ['spacer_ring_1', 'bolt_1', 'bolt_2'],
+        'description': 'A spacer ring is placed below the flange plate, with bolts passing through to allow flexible coupling.'
+    },
+    'layer_4': {
+        'involved_components': ['flange_plate_2', 'nut_3', 'nut_4'],
+        'description': 'Another flange plate is positioned below the spacer ring and secured with nuts, completing the first half of the coupling.'
+    },
+    'layer_5': {
+        'involved_components': ['flange_plate_3', 'nut_5', 'nut_6'],
+        'description': 'The third flange plate begins the second half of the coupling, mirroring the upper half.'
+    },
+    'layer_6': {
+        'involved_components': ['spacer_ring_2', 'bolt_3', 'bolt_4'],
+        'description': 'A second spacer ring is placed below the third flange plate, with bolts passing through it.'
+    },
+    'layer_7': {
+        'involved_components': ['flange_plate_4', 'nut_7', 'nut_8'],
+        'description': 'The fourth flange plate is secured below the second spacer ring with nuts, completing the coupling structure.'
+    },
+    'layer_8': {
+        'involved_components': ['output_shaft'],
+        'description': 'The output shaft is located at the bottommost layer, receiving torque from the coupling.'
+    }
+}
+        
