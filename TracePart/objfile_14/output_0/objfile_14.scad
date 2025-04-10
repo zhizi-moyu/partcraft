@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 hub_diameter = 30;
 hub_length = 15;
@@ -97,5 +97,5 @@ translate([-hub_length, 0, hub_length/2])
 translate([hub_length, 0, hub_length/2])
     rotate([0, 90, 0])
         set_screw();
-```
+
 
