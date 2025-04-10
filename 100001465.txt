@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'tapered_hollow_block': {
+        'num': '1',
+        'description': 'A single hollow rectangular prism with a tapered inner cavity. The outer shape is a rectangular box with a wider top and narrower bottom. The top and bottom edges have flanged rims extending outward, likely for mounting or structural support. The inner cavity is trapezoidal in cross-section, sloping inward from the top to the bottom. The walls are straight and smooth, and the component appears to be a single molded or machined piece.'
+    }
+}
+            modify component list:
+            component_list = {
+    'tapered_hollow_block': {
+        'num': '1',
+        'description': 'A single hollow rectangular prism with a tapered inner cavity. The outer shape is a rectangular box with a wider top and narrower bottom. The top and bottom edges have flanged rims extending outward, likely for mounting or structural support. The inner cavity is trapezoidal in cross-section, sloping inward from the top to the bottom. The walls are straight and smooth, and the component appears to be a single molded or machined piece.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['tapered_hollow_block'],
+        'description': 'This is a single molded or machined component with a tapered inner cavity. It spans the entire vertical structure from top to bottom, with flanged rims at both ends for structural support or mounting.'
+    }
+}
+        
