@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 bolt_length = 40;
 bolt_radius = 3;
@@ -43,5 +43,5 @@ module bolt() {
 
 // Render the bolt
 bolt();
-```
+
  
