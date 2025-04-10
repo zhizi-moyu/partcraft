@@ -1,4 +1,4 @@
-```scad
+
 $fn=100;
 
 // Parameters
@@ -93,5 +93,4 @@ module bolts_and_nuts() {
                 cylinder(d=nut_diameter, h=nut_thickness);
     }
 }
-```
 
