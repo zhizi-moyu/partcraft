@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100;
 
 // Parameters
@@ -76,5 +76,5 @@ module clamping_screws() {
 
 // Render the full coupling
 coupling();
-```
+
 
