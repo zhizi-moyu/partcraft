@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 base_length = 60;
 base_width = 10;
@@ -36,5 +36,5 @@ module full_model() {
 }
 
 full_model();
-```
+
 
