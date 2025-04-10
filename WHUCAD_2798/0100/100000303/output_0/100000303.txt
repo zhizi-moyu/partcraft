@@ -1,0 +1,46 @@
+
+
+            component_list = {
+    'base_frame': {
+        'num': '1',
+        'description': 'A flat rectangular frame with a large central rectangular cutout, two side flanges, and multiple small slots and notches for alignment or attachment. The frame has a thin profile and appears to serve as the main structural base.'
+    },
+    'sloped_support_bracket': {
+        'num': '2',
+        'description': 'Triangular prism-shaped brackets with a sloped top surface. Each bracket is mounted on either side of the base frame and provides angled support. The brackets are hollow underneath and have a clean, angular geometry.'
+    },
+    'vertical_support_tab': {
+        'num': '1',
+        'description': 'A small vertical tab located at the center of the base frame’s rear side. It has a circular hole, likely for a fastener or alignment pin. The tab is perpendicular to the base and provides vertical support or connection.'
+    }
+}
+            modify component list:
+            component_list = {
+    'base_frame': {
+        'num': '1',
+        'description': 'A flat rectangular frame with a large central rectangular cutout, two side flanges, and multiple small slots and notches for alignment or attachment. The frame has a thin profile and appears to serve as the main structural base.'
+    },
+    'sloped_support_bracket': {
+        'num': '2',
+        'description': 'Triangular prism-shaped brackets with a sloped top surface. Each bracket is mounted on either side of the base frame and provides angled support. The brackets are hollow underneath and have a clean, angular geometry.'
+    },
+    'vertical_support_tab': {
+        'num': '1',
+        'description': 'A small vertical tab located at the center of the base frame’s rear side. It has a circular hole, likely for a fastener or alignment pin. The tab is perpendicular to the base and provides vertical support or connection.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['vertical_support_tab'],
+        'description': 'The vertical support tab is mounted upright at the rear center of the base frame and is the topmost component.'
+    },
+    'layer_2': {
+        'involved_components': ['sloped_support_bracket_1', 'sloped_support_bracket_2'],
+        'description': 'The two sloped support brackets are symmetrically mounted on either side of the base frame, providing angled structural support.'
+    },
+    'layer_3': {
+        'involved_components': ['base_frame'],
+        'description': 'The base frame forms the foundation of the structure, with all other components mounted on or above it.'
+    }
+}
+        
