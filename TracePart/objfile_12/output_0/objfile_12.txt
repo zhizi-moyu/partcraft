@@ -1,0 +1,58 @@
+
+
+            component_list = {
+    'coupling_hub': {
+        'num': '2',
+        'description': 'A cylindrical component with a central bore for shaft insertion, external grooves for weight reduction or flexibility, and threaded holes on the flange face for clamping screws. One side has a slit for shaft clamping.'
+    },
+    'bellows': {
+        'num': '1',
+        'description': 'A flexible, accordion-like cylindrical element made of thin metal, designed to transmit torque while accommodating misalignment. It connects the two coupling hubs.'
+    },
+    'clamping_screw': {
+        'num': '12',
+        'description': 'Small hexagonal head screws used to fasten the coupling hubs to the flange rings. They are inserted into the threaded holes on the hub flanges.'
+    },
+    'flange_ring': {
+        'num': '2',
+        'description': 'Flat circular rings with multiple holes around the perimeter for screws. These rings are mounted between the bellows and the coupling hubs to secure the assembly.'
+    }
+}
+            modify component list:
+            component_list = {
+    'coupling_hub': {
+        'num': '2',
+        'description': 'A cylindrical component with a central bore for shaft insertion, external grooves for weight reduction or flexibility, and threaded holes on the flange face for clamping screws. One side has a slit for shaft clamping.'
+    },
+    'bellows': {
+        'num': '1',
+        'description': 'A flexible, accordion-like cylindrical element made of thin metal, designed to transmit torque while accommodating misalignment. It connects the two coupling hubs.'
+    },
+    'clamping_screw': {
+        'num': '12',
+        'description': 'Small hexagonal head screws used to fasten the coupling hubs. They are inserted into the threaded holes on the hub flanges.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['coupling_hub_1'],
+        'description': 'This is one of the two cylindrical coupling hubs, located at one end of the assembly. It has a slit for shaft clamping and threaded holes for screws.'
+    },
+    'layer_2': {
+        'involved_components': ['clamping_screw_1', 'clamping_screw_2', 'clamping_screw_3', 'clamping_screw_4', 'clamping_screw_5', 'clamping_screw_6'],
+        'description': 'These screws are inserted into the flange face of coupling_hub_1 to secure the bellows.'
+    },
+    'layer_3': {
+        'involved_components': ['bellows'],
+        'description': 'The flexible bellows is positioned between the two coupling hubs, allowing for torque transmission and misalignment compensation.'
+    },
+    'layer_4': {
+        'involved_components': ['clamping_screw_7', 'clamping_screw_8', 'clamping_screw_9', 'clamping_screw_10', 'clamping_screw_11', 'clamping_screw_12'],
+        'description': 'These screws are inserted into the flange face of coupling_hub_2 to secure the bellows.'
+    },
+    'layer_5': {
+        'involved_components': ['coupling_hub_2'],
+        'description': 'This is the second coupling hub, located at the opposite end of the assembly. It mirrors the first hub in structure and function.'
+    }
+}
+        
