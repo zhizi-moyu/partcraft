@@ -1,0 +1,50 @@
+
+
+            component_list = {
+    'base_arm': {
+        'num': '1',
+        'description': 'A long, flat horizontal arm with a rectangular cross-section. It has a smooth top surface and a small cylindrical protrusion near one end, likely for pivoting or attachment.'
+    },
+    'vertical_arm': {
+        'num': '1',
+        'description': 'A tall, flat vertical extension rising perpendicularly from one end of the base arm. It is rectangular in shape and appears to be solid, forming an L-shape with the base arm.'
+    },
+    'pivot_pin': {
+        'num': '1',
+        'description': 'A small cylindrical pin located near the middle of the base arm. It protrudes downward and is likely used to allow rotational movement or to secure the component to another structure.'
+    },
+    'hook_extension': {
+        'num': '1',
+        'description': 'A small hook-like extension or notch located at the end of the base arm, opposite the vertical arm. It appears to be used for latching or engaging with another part.'
+    }
+}
+            modify component list:
+            component_list = {
+    'base_arm': {
+        'num': '1',
+        'description': 'A long, flat horizontal arm with a rectangular cross-section. It has a smooth top surface and a small cylindrical protrusion near one end, likely for pivoting or attachment.'
+    },
+    'vertical_arm': {
+        'num': '1',
+        'description': 'A tall, flat vertical extension rising perpendicularly from one end of the base arm. It is rectangular in shape and appears to be solid, forming an L-shape with the base arm.'
+    },
+    'pivot_pin': {
+        'num': '1',
+        'description': 'A small cylindrical pin located near the middle of the base arm. It protrudes downward and is likely used to allow rotational movement or to secure the component to another structure.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['vertical_arm'],
+        'description': 'The vertical arm rises perpendicularly from the base arm and is the topmost component in the structure.'
+    },
+    'layer_2': {
+        'involved_components': ['base_arm'],
+        'description': 'The base arm lies horizontally and supports the vertical arm, forming an L-shaped structure.'
+    },
+    'layer_3': {
+        'involved_components': ['pivot_pin'],
+        'description': 'The pivot pin is attached beneath the base arm, likely allowing for rotational movement or attachment to another structure.'
+    }
+}
+        
