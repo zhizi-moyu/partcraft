@@ -1,0 +1,82 @@
+
+
+            component_list = {
+    'input_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft with a central bore and a flange base; the flange has bolt holes for mounting.'
+    },
+    'output_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft similar to the input shaft, with a central bore and a flange base with bolt holes.'
+    },
+    'spacer_ring': {
+        'num': '2',
+        'description': 'Very flat, thin rings placed between the flange plates; they act as flexible elements to absorb misalignment.'
+    },
+    'flange_plate': {
+        'num': '4',
+        'description': 'Flat, thick circular plates with a central hole and multiple bolt holes around the perimeter; used to connect the shafts via bolts.'
+    },
+    'bolt': {
+        'num': '8',
+        'description': 'Slender cylindrical fasteners with hexagonal heads, used to clamp the flange plates together through the bolt holes.'
+    },
+    'nut': {
+        'num': '8',
+        'description': 'Hexagonal nuts that pair with the bolts to secure the flange plates; visible on the opposite side of the bolt heads.'
+    }
+}
+            modify component list:
+            component_list = {
+    'input_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft with a central bore and a flange base; the flange has bolt holes for mounting.'
+    },
+    'output_shaft': {
+        'num': '1',
+        'description': 'A solid cylindrical shaft similar to the input shaft, with a central bore and a flange base with bolt holes.'
+    },
+    'spacer_ring': {
+        'num': '2',
+        'description': 'Very flat, thin rings placed between the flange plates; they act as flexible elements to absorb misalignment.'
+    },
+    'flange_plate': {
+        'num': '2',
+        'description': 'Flat, thick circular plates with a central hole and multiple bolt holes around the perimeter; used to connect the shafts via bolts.'
+    },
+    'bolt': {
+        'num': '8',
+        'description': 'Slender cylindrical fasteners with hexagonal heads, used to clamp the flange plates together through the bolt holes.'
+    },
+    'nut': {
+        'num': '8',
+        'description': 'Hexagonal nuts that pair with the bolts to secure the flange plates; visible on the opposite side of the bolt heads.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['input_shaft'],
+        'description': 'The input shaft is located at one end of the assembly and connects to the flange plate.'
+    },
+    'layer_2': {
+        'involved_components': ['flange_plate_1', 'bolt_1', 'bolt_2', 'bolt_3', 'bolt_4', 'nut_1', 'nut_2', 'nut_3', 'nut_4'],
+        'description': 'The first flange plate is mounted to the input shaft. Four bolts pass through the flange plate and are secured with nuts on the opposite side.'
+    },
+    'layer_3': {
+        'involved_components': ['spacer_ring_1'],
+        'description': 'A thin spacer ring is placed between the two flange plates to absorb misalignment.'
+    },
+    'layer_4': {
+        'involved_components': ['spacer_ring_2'],
+        'description': 'Another spacer ring is stacked with the first one, forming a flexible coupling layer between the flange plates.'
+    },
+    'layer_5': {
+        'involved_components': ['flange_plate_2', 'bolt_5', 'bolt_6', 'bolt_7', 'bolt_8', 'nut_5', 'nut_6', 'nut_7', 'nut_8'],
+        'description': 'The second flange plate is aligned with the first one, clamping the spacer rings in between. Bolts pass through and are secured with nuts.'
+    },
+    'layer_6': {
+        'involved_components': ['output_shaft'],
+        'description': 'The output shaft is located at the opposite end of the assembly and connects to the second flange plate.'
+    }
+}
+        
