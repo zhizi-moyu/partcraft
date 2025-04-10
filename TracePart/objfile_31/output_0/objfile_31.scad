@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100; // Smoothness
 
 // Parameters
@@ -43,5 +43,4 @@ module flexible_coupling() {
 
 // Render the model
 flexible_coupling();
-```
 
