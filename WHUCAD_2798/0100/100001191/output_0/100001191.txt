@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'angled_block': {
+        'num': '1',
+        'description': 'A solid block with an angular geometry. The base is a rectangular prism, and from one end, a sloped extension rises at an angle, forming a wedge-like shape. The top surface is flat and transitions into a slanted face. The front face is rectangular, while the back face includes a sharp triangular cut. The overall shape resembles a ramp or inclined plane attached to a rectangular base. All edges are sharp and the surfaces are flat, giving it a machined, precise appearance.'
+    }
+}
+            modify component list:
+            component_list = {
+    'angled_block': {
+        'num': '1',
+        'description': 'A solid block with an angular geometry. The base is a rectangular prism, and from one end, a sloped extension rises at an angle, forming a wedge-like shape. The top surface is flat and transitions into a slanted face. The front face is rectangular, while the back face includes a sharp triangular cut. The overall shape resembles a ramp or inclined plane attached to a rectangular base. All edges are sharp and the surfaces are flat, giving it a machined, precise appearance.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['angled_block'],
+        'description': 'This component is located in this layer alone. It is a solid block with a rectangular base and a sloped extension forming a wedge-like shape.'
+    }
+}
+        
