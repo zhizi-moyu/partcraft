@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 tabletop_length = 100;
 tabletop_width = 60;
@@ -57,5 +57,5 @@ module table() {
 
 // Render the table
 table();
-```
+
 
