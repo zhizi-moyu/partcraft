@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'mounting_bracket': {
+        'num': '1',
+        'description': 'A single L-shaped mounting bracket with a flat horizontal base and a vertical backplate. The base has a large central circular hole and four smaller corner holes, likely for mounting or fastening. The vertical backplate has two elongated vertical slots for adjustable mounting. The entire component is made from a solid block with smooth edges and a uniform thickness, designed for structural support or fixture mounting.'
+    }
+}
+            modify component list:
+            component_list = {
+    'mounting_bracket': {
+        'num': '1',
+        'description': 'A single L-shaped mounting bracket with a flat horizontal base and a vertical backplate. The base has a large central circular hole and four smaller corner holes, likely for mounting or fastening. The vertical backplate has two elongated vertical slots for adjustable mounting. The entire component is made from a solid block with smooth edges and a uniform thickness, designed for structural support or fixture mounting.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['mounting_bracket'],
+        'description': 'This is a single L-shaped component with a horizontal base and a vertical backplate, forming one solid structure without any additional components.'
+    }
+}
+        
