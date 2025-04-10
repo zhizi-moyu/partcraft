@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 rod_radius = 0.8;       // Radius of the rod (circular cross-section)
 leg_height = 20;        // Shorter leg height
@@ -34,5 +34,5 @@ module u_shaped_bracket() {
 }
 
 u_shaped_bracket();
-```
+
 
