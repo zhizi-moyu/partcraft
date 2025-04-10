@@ -1,0 +1,54 @@
+
+
+            component_list = {
+    'left_clamping_hub': {
+        'num': '1',
+        'description': 'A short cylindrical section at one end of the coupling with a transverse slit and two threaded holes for clamping screws. It is part of the same body as the flexure and used to grip a shaft.'
+    },
+    'right_clamping_hub': {
+        'num': '1',
+        'description': 'A short cylindrical section at the opposite end of the coupling, also with a transverse slit and two threaded holes for clamping screws. It mirrors the left hub and is used to grip the second shaft.'
+    },
+    'helical_flexure_body': {
+        'num': '1',
+        'description': 'A central cylindrical body with multiple helical cuts (spiral slots) that allow for torsional flexibility and slight misalignment compensation. It connects the two clamping hubs as a single machined piece.'
+    },
+    'clamping_screw': {
+        'num': '4',
+        'description': 'Small cylindrical screws with hexagonal sockets, inserted into the threaded holes on both end faces of the coupling to tighten the slits and secure the shafts.'
+    }
+}
+            modify component list:
+            component_list = {
+    'left_clamping_hub': {
+        'num': '1',
+        'description': 'A short cylindrical section at one end of the coupling with a transverse slit and two threaded holes for clamping screws. It is part of the same body as the flexure and used to grip a shaft.'
+    },
+    'right_clamping_hub': {
+        'num': '1',
+        'description': 'A short cylindrical section at the opposite end of the coupling, also with a transverse slit and two threaded holes for clamping screws. It mirrors the left hub and is used to grip the second shaft.'
+    },
+    'helical_flexure_body': {
+        'num': '1',
+        'description': 'A central cylindrical body with multiple helical cuts (spiral slots) that allow for torsional flexibility and slight misalignment compensation. It connects the two clamping hubs as a single machined piece.'
+    },
+    'clamping_screw': {
+        'num': '4',
+        'description': 'Small cylindrical screws with hexagonal sockets, inserted into the threaded holes on both end faces of the coupling to tighten the slits and secure the shafts.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['left_clamping_hub', 'clamping_screw'],
+        'description': 'The left clamping hub is located at one end of the coupling, with two clamping screws inserted into its threaded holes to secure the shaft.'
+    },
+    'layer_2': {
+        'involved_components': ['helical_flexure_body'],
+        'description': 'The helical flexure body is centrally located, connecting the two clamping hubs and providing torsional flexibility through its spiral cuts.'
+    },
+    'layer_3': {
+        'involved_components': ['right_clamping_hub', 'clamping_screw'],
+        'description': 'The right clamping hub is located at the opposite end of the coupling, with two clamping screws inserted into its threaded holes to secure the shaft.'
+    }
+}
+        
