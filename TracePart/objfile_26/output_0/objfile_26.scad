@@ -1,4 +1,4 @@
-```scad
+
 $fn = 100; // Smoothness
 
 module shaft_body() {
@@ -39,5 +39,5 @@ module shaft_body() {
 }
 
 shaft_body();
-```
+
 
