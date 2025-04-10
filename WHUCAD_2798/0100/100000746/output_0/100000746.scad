@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 rod_width = 2;     // Width of the rectangular rod
 rod_depth = 4;     // Depth (thickness) of the rod
@@ -22,5 +22,4 @@ module u_shaped_bracket() {
 }
 
 u_shaped_bracket();
-```
 
