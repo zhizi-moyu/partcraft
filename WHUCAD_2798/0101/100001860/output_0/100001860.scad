@@ -1,4 +1,4 @@
-```scad
+
 // Module to create a single curved wedge block
 module curved_wedge_block() {
     difference() {
@@ -24,5 +24,5 @@ module layer_1() {
 
 // Call the layer module to render the model
 layer_1();
-```
+
  
