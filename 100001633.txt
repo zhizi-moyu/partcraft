@@ -1,0 +1,33 @@
+
+
+            component_list = {
+    'tabletop': {
+        'num': '1',
+        'description': 'A flat rectangular panel with smooth surfaces and sharp edges, serving as the main surface of the table. It has four corner attachment points for legs and two slots underneath for support bars.'
+    },
+    'table_leg': {
+        'num': '4',
+        'description': 'Slender cylindrical rods with uniform diameter, each designed to attach vertically to a corner of the tabletop. They are straight and of equal length, providing vertical support.'
+    },
+    'horizontal_support_bar': {
+        'num': '2',
+        'description': 'Long, narrow rectangular bars that run parallel beneath the tabletop. They are mounted between the legs on opposite sides to provide structural stability.'
+    }
+}
+            modify component list:
+            component_list = {
+    'tabletop': {
+        'num': '1',
+        'description': 'A flat rectangular panel with smooth surfaces and sharp edges, serving as the main surface of the table. It has four corner attachment points for legs and two slots underneath for support bars.'
+    },
+    'table_leg': {
+        'num': '4',
+        'description': 'Slender cylindrical rods with uniform diameter, each designed to attach vertically to a corner of the tabletop. They are straight and of equal length, providing vertical support.'
+    },
+    'horizontal_support_bar': {
+        'num': '2',
+        'description': 'Long, narrow rectangular bars that run parallel beneath the tabletop. They are mounted between the legs on opposite sides to provide structural stability.'
+    }
+}
+            None
+        
