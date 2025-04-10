@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 jaw_length = 30;
 jaw_width = 30;
@@ -89,5 +89,5 @@ module assembly() {
 
 // Render the full model
 assembly();
-```
+
 
