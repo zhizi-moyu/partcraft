@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'rectangular_block_with_holes': {
+        'num': '1',
+        'description': 'A solid rectangular block with two circular holes drilled through the flat face. The block has a smooth surface with slightly rounded edges and corners. The holes are aligned along the longer side of the rectangle and are equidistant from the edges. The block is relatively thick, giving it a robust appearance, and the holes appear to be for fasteners or alignment pins.'
+    }
+}
+            modify component list:
+            component_list = {
+    'rectangular_block_with_holes': {
+        'num': '1',
+        'description': 'A solid rectangular block with two circular holes drilled through the flat face. The block has a smooth surface with slightly rounded edges and corners. The holes are aligned along the longer side of the rectangle and are equidistant from the edges. The block is relatively thick, giving it a robust appearance, and the holes appear to be for fasteners or alignment pins.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['rectangular_block_with_holes'],
+        'description': 'This component is located in this layer alone. It is a solid rectangular block with two circular holes aligned along its longer side, likely for fasteners or alignment pins.'
+    }
+}
+        
