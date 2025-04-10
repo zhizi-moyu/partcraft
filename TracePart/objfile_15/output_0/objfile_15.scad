@@ -1,4 +1,4 @@
-```scad
+
 $fn=100;
 
 // Parameters
@@ -82,5 +82,4 @@ translate([0,0,hub_length]) jaw_insert(); // Jaw inserts
 translate([0,0,hub_length*2]) hub(true); // Right hub
 bolt(); // Bolts
 nut(); // Nuts
-```
 
