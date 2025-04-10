@@ -1,4 +1,4 @@
-```scad
+
 // Parameters
 body_diameter = 30;
 body_height = 30;
@@ -53,5 +53,5 @@ module flexible_coupling() {
 
 // Render the model
 flexible_coupling();
-```
+
 
