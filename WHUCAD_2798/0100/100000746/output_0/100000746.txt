@@ -1,0 +1,22 @@
+
+
+            component_list = {
+    'u_shaped_bracket': {
+        'num': '1',
+        'description': 'A single-piece U-shaped bracket made of a rectangular cross-section rod. The bracket has two vertical legs connected by a smooth semi-circular top. The bottom ends of the legs are flat and parallel, forming a rectangular base. The overall shape resembles an inverted "U" or a staple. The edges are slightly rounded, and the structure appears rigid and symmetrical. The component is likely used as a connector or support in a mechanical assembly.'
+    }
+}
+            modify component list:
+            component_list = {
+    'u_shaped_bracket': {
+        'num': '1',
+        'description': 'A single-piece U-shaped bracket made of a rectangular cross-section rod. The bracket has two vertical legs connected by a smooth semi-circular top. The bottom ends of the legs are flat and parallel, forming a rectangular base. The overall shape resembles an inverted "U" or a staple. The edges are slightly rounded, and the structure appears rigid and symmetrical. The component is likely used as a connector or support in a mechanical assembly.'
+    }
+}
+            graph_dict = {
+    'layer_1': {
+        'involved_components': ['u_shaped_bracket'],
+        'description': 'This component is located in this layer alone and forms a standalone U-shaped structure with no other components attached.'
+    }
+}
+        
